@@ -40,7 +40,7 @@ header h1 {
     font-size: 36px;
     color: var(--secodary-color);
     margin: 0,
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+  
 } 
 
 
@@ -79,6 +79,7 @@ header nav ul li a:hover{
 
 }
 
+
 footer {
     background: var(--teritary-color);
     width: 100%;
@@ -87,3 +88,103 @@ footer {
     flex-wrap: wrap;
 
 }
+footer h4 {
+    margin: 0;
+    font-size: medium;
+}
+
+footer div p {
+    text-align: right;
+}
+
+.about-me {
+    margin: 20px auto;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: right;
+
+} 
+
+.about-me h2 {
+    flex: 0 0 0;
+    margin: right;
+}
+
+.about-me p {
+    margin: 20px 50px;
+    text-align: justify;
+}
+
+/*Work section starts */
+ .work {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    overflow: hidden;
+
+ }
+
+ .work h2 {
+    text-align: center;
+    margin: 15px auto;
+ }
+
+ .work img {
+    width: 100%;
+    min-height: 300px;
+    max-height: 400px;
+    object-fit: cover;
+ }
+
+ 
+ .work-main {
+    position: static;
+    margin: 10px;
+    width: 100%;
+    flex: 0 100%;
+
+ }
+  .work-title{
+    position: static;
+    bottom: 8px;
+    left: 16px;
+    width: 60%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--teritary-color);
+    color: var(--secodary-color);
+
+  }
+ 
+  /*Contact me starts*/
+  .contact-me {
+    margin: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  .contact-me h2 {
+    text-align: center;
+    margin: 15px auto;
+  }
+
+  .contact-me ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-style: normal;
+
+  }
+
+  .contact-me ul li {
+    margin: 20px;
+  }
+
+
