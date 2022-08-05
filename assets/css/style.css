@@ -14,7 +14,7 @@
 
 body {
 
-    color: var(--secodary-color);
+    color: var(--secondary-color);
     font-family:Arial, Helvetica, sans-serif;
 
 }
@@ -107,13 +107,21 @@ footer div p {
 } 
 
 .about-me h2 {
-    flex: 0 0 0;
-    margin: right;
+    text-align: left;
 }
 
 .about-me p {
     margin: 20px 50px;
-    text-align: justify;
+    text-align: match-parent;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    
 }
 
 /*Work section starts */
@@ -127,13 +135,11 @@ footer div p {
  }
 
  .work h2 {
-    text-align: center;
-    margin: 15px auto;
+    text-align: left;
  }
 
  .work img {
     width: 100%;
-    min-height: 300px;
     max-height: 400px;
     object-fit: cover;
  }
@@ -146,11 +152,24 @@ footer div p {
     flex: 0 100%;
 
  }
-  .work-title{
+
+ .container {
+    position: static;
+    text-align: left;
+    color: var(--primary-color);
+    background-color: var(--teritary-color);
+
+ }
+ .bottom-left {
     position: static;
     bottom: 8px;
     left: 16px;
-    width: 60%;
+ }
+  .work-title {
+    position: static;
+    bottom: 8px;
+    left: 16px;
+    width: 100%;
     padding: 5px;
     border-radius: 5px;
     background-color: var(--teritary-color);
@@ -164,13 +183,12 @@ footer div p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     list-style: none;
   }
 
   .contact-me h2 {
-    text-align: center;
-    margin: 15px auto;
+    text-align: left;
   }
 
   .contact-me ul {
